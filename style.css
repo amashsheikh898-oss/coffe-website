@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.top{
+    background-color: #8a5608;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    font-size: 15px;
+}
+
+.text span{
+    margin-left: 10px;
+}
+
+
+
+
+nav{
+    background-color: rgb(34, 20, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.main-nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 10px;
+    
+  
+  
+}
+.logo img{
+    color:white;
+    width: 40px;
+    border-radius: 100px 100px;
+
+ 
+}
+ul{
+    display: flex;
+}
+nav ul li{
+ 
+    display: inline;
+    padding: 20px 20px;
+    padding-top: 30px;
+     text-decoration: none;
+  
+
+
+}
+
+nav ul li a{
+   color: white;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 5px 15px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #8a5608;
+
+  
+
+}
+.btn{
+    border-color: #8a5608;
+   color: white;
+    text-decoration: none;
+    border-radius: 10px;
+   
+
+}
+.nav-btn{
+    color: white;
+    
+   
+
+}
+.nav-btn a{
+    color: white;
+       padding-right: 40px;
+       text-decoration: none;
+   
+      
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5)),url(woman-using-tablet-coffee-shop.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+.shope{
+    color: white;
+    padding: 17px 70px;
+    justify-content: space-between;
+    
+   
+}
+.shope h1{
+    text-align: center;
+}
+ h1{
+    text-align: center;
+}
+.text2{
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 20%;
+    font-size: 20px;
+}
+.text2 p{
+    font-size: 10px;
+    color: gray;
+}
+
+.contener{
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    margin: 50px;
+
+}
+.contener p{
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+}
+.card-container{
+    display: flex;
+    padding: 50px 10%;
+    background-color: none;
+    color: white;
+    text-align: center;
+    gap: 30px;
+   
+}
+.services h3{
+    color: black;
+    font-size: 36px;
+    margin-bottom: 50px ;
+
+}
+.card-container{
+   
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+
+    
+}
+.card{
+    background-color: rgb(255, 214, 161);
+    width: 280px;
+    min-width:300px;
+    border-radius: 30px;
+    overflow:hidden ;
+    padding: none;
+    
+
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+.card h3{
+    /* color: rgb(0, 0, 0);
+    margin-bottom: 15px; */
+    font-size: 20px;
+    margin: 15px;
+    color:black;
+
+}
+.card p{
+      font-size: 14px;
+      margin: 0 15px 15px;
+      color: gray;
+    
+}
+.card-btn{
+    /* display: block; */
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px 60px;
+    text-align: center;
+    background: #2b1d09;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+   
+}
+.text-h3{
+    color: #000;
+    text-align: center;
+     font-size: 40px;
+   
+
+}
+.footer{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #2b1d09;
+     display: flex;
+    font-size: 10px;
+.nav-2{
+    align-items: center;
+    margin-left: 35%;
+}
+
+}
+.footer h3{
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    flex: auto;
+   
+    
+    
+}
+.footer p{
+    margin-top: 30px;
+
+    font-size: 15px;
+    text-align: center;
+    color: rgb(122, 117, 117);
+}
+.btn-2{
+  margin-bottom: 10%;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 30%
+    
+    
+
+}
